@@ -1,7 +1,8 @@
-#root {
-  margin: 0 auto;
-  padding: 2rem;
+html, body, #root {
+  height: 100%;
+  width: 100%;
   text-align: center;
+  justify-content: center;
   background: linear-gradient(to right, #5973a8, #134ec4); 
   display: flex;
 }
