@@ -9,7 +9,7 @@ function App() {
       <div>
         <h1>Random Doge Generator</h1>
       </div>
-      <div>
+      <div className='doge-container'>
         <GetRandomDoge />
       </div>
     </div>

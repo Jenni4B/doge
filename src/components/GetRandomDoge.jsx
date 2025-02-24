@@ -42,7 +42,13 @@ const GetRandomDoge = () => {
             </div>
             <br></br>
             <div>
-                <img src={image}/>
+                <img src={image}
+                style={{
+                    width: 'auto',
+                    height: '400px',
+                    objectFit: 'cover',
+                    borderRadius: '10px',
+                }}/>
             </div>
         </div>
     )
