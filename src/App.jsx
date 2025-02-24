@@ -6,18 +6,20 @@ function App() {
  
   return (
     <div className="App">
-      <nav>
+      <nav className='nav'>
         <ul>
           <a href="/">Home</a>
           <a href="/contact">Contact</a>
         </ul>
       </nav>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+      <div className="content">  
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </div>
     </div>
     )
 }

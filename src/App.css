@@ -3,19 +3,26 @@ html, body, #root {
   width: 100%;
   text-align: center;
   justify-content: center;
-  background: linear-gradient(to right, #5973a8, #134ec4); 
-  display: flex;
+  background: linear-gradient(to right, #495e88, #134ec4); 
+  display: block;
 }
 
-.App {
+/* .content {
   flex-direction: column;
   justify-content: center;
   color: rgb(255, 255, 255);
+} */
+
+.nav a {
+  color: #f3f3f3;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
 }
 
-#doge-container {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
+.nav {
+  background: #31446b;
+  padding: 10px;
+  color: #f3f3f3;
+  display: block; 
 }
