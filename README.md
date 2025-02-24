@@ -9,17 +9,24 @@ Currently, two official plugins are available:
 
 
 #About
+
 Click the button to receive a random dog(e).
 
 #Installation
 1. Clone the repository:
    ```sh
    git clone https://github.com/Jenni4B/doge.git
-   cd randomdoge
+   cd doge
 
 2. Install basic dependencies
    ```sh
    npm install
 3. Run :D
    ```sh
-   npm start
+   npm run dev
+
+#Update Monday, February 24th, 2025
+1. Created an about page
+   a. Includes my name and general information
+2. An email to reach me
+3. Fixed the ratio for the dog pictures
