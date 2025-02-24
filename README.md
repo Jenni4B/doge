@@ -8,11 +8,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-#About
+# About
 
 Click the button to receive a random dog(e).
 
-#Installation
+# Installation
 1. Clone the repository:
    ```sh
    git clone https://github.com/Jenni4B/doge.git
@@ -25,7 +25,7 @@ Click the button to receive a random dog(e).
    ```sh
    npm run dev
 
-#Update Monday, February 24th, 2025
+# Update Monday, February 24th, 2025
 1. Created an about page
    a. Includes my name and general information
 2. An email to reach me
