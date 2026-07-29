@@ -48,7 +48,7 @@ const Contact = () => {
       <InfoItem
         label="LinkedIn"
         value="Jennifer Blocker's LinkedIn"
-        link="https://www.linkedin.com/in/jennifer-blocker-3a4b4b1a/"
+        link="https://www.linkedin.com/in/jennifer-blocker-a15b8a283/"
       />      
       <InfoItem
         label="My Github"
