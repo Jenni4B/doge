@@ -37,14 +37,19 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h2>My Name:</h2>
-      <InfoItem value="Jennifer Blocker" />
+      <InfoItem value="Jennifer E. Blocker" />
 
       <h2>Contact Me</h2>
       <InfoItem
-        label="Launchpad Email"
-        value="jbloc0008@launchpadphilly.org"
-        link="mailto:jbloc0008@launchpadphilly.org"
+        label="Email"
+        value="jennifer.ea.blocker@gmail.com"
+        link="mailto:jennifer.ea.blocker@gmail.com"
       />
+      <InfoItem
+        label="LinkedIn"
+        value="Jennifer Blocker's LinkedIn"
+        link="https://www.linkedin.com/in/jennifer-blocker-3a4b4b1a/"
+      />      
       <InfoItem
         label="My Github"
         value="Jenni4B"
